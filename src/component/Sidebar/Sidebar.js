@@ -1,5 +1,6 @@
 
 import './Sidebar.scss'
+import  image  from '../../images/image.jpg';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import PersonIcon from '@mui/icons-material/Person';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
@@ -9,7 +10,8 @@ const Sidebar = () => {
   return (
     <div className='Sidebar'>
         <div className='top'>
-          <img src='logo.png' alt='Logo'></img>
+            <img src={image} alt="logo" />
+          
 
         </div>
         <hr/>
